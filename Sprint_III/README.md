@@ -23,5 +23,15 @@ O conjunto de dados **heart** foi, inicialmente, obtido no kaggle, uma fonte rec
 Para este trabalho, em específico, e para demonstrar um processo, mínimo de ETL, optei por usar o dataset que já se encontra neste repositório, fazendo a carga do mesmo através da `raw url` que o Github disponibiliza.
 
 ##### Carga
+A ingestão na nuvem do **Databricks** foi realizada através do comandos abaixo: 
 
+1. Extração da base de dados que se encontra neste repositório através da `raw _url`
+![image](https://github.com/rafaelpuyau/PUC-Rio/assets/67115933/aa567fc1-96a5-4231-96cc-24457e195f85)
+
+2. Conversão para o format `parquet`e salvamento no _databricks file system_
+![image](https://github.com/rafaelpuyau/PUC-Rio/assets/67115933/b6ed4403-aa70-4ac6-8578-5bed208e4641)
+
+3. Criação da tabela temporária para usar os comandos `SQL`
+![image](https://github.com/rafaelpuyau/PUC-Rio/assets/67115933/206c7c69-2517-43b0-b6a2-ee0c641a97cf)
+ 
 
