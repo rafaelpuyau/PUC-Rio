@@ -33,5 +33,10 @@ A ingestão na nuvem do **Databricks** foi realizada através do comandos abaixo
 
 3. Criação da tabela temporária para usar os comandos `SQL`
 ![image](https://github.com/rafaelpuyau/PUC-Rio/assets/67115933/206c7c69-2517-43b0-b6a2-ee0c641a97cf)
- 
+
+##### Análise
+###### Qualidade de dados
+
+###### Solução do problema
+
 
