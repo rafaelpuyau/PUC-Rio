@@ -36,6 +36,7 @@ A ingestão na nuvem do **Databricks** foi realizada através do comandos abaixo
 
 ##### Análise
 ###### Qualidade de dados
+O tratamento da qualidade dos dados foi realizado na camada `silver` e encontra-se na wiki todas as etapas e ações realizadas. [Clique aqui](https://github.com/rafaelpuyau/PUC-Rio/wiki/Documenta%C3%A7%C3%A3o-%E2%80%90-Fase-II) para conferir.
 
 ###### Solução do problema
 
