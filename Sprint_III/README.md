@@ -39,5 +39,9 @@ A ingestão na nuvem do **Databricks** foi realizada através do comandos abaixo
 O tratamento da qualidade dos dados foi realizado na camada `silver` e encontra-se na wiki todas as etapas e ações realizadas. [Clique aqui](https://github.com/rafaelpuyau/PUC-Rio/wiki/Documenta%C3%A7%C3%A3o-%E2%80%90-Fase-II) para conferir.
 
 ###### Solução do problema
+Chegou o momento de se solucionar o problema em questão, definido preliminarmente nos objetivos. Deve-se buscar respostas para as perguntas elencadas. Para cada resposta obtida tecnicamente através da análise dos dados deve haver uma discussão do seu resultado, conectando os números obtidos às respostas ao problema a ser solucionado.
 
+Ao final, deve haver uma discussão de uma forma geral sobre a solução do problema a partir das discussões de cada resposta.
+
+Aqui, podem ser utilizadas bibliotecas Python vistas na disciplina Análise Exploratória e Pré-Processamento de Dados, ou as ferramentas vistas na disciplina Visualização de Informação. Entretanto, caso não tenha ainda cursado estas disciplinas, é possível responder as perguntas do objetivo somente através da linguagem SQL, objeto da disciplina de Banco de Dados ou através da linguagem de consulta do banco NoSQL escolhido, objeto da disciplina de Data Warehouse.
 
