@@ -3,6 +3,10 @@
 ### Author : Rafael Puyau
 ### Date : 2024-06-30
 
+#### Objetivo do MVP 
+
+Construir um pipeline de dados utilizando tecnologias na nuvem. Neste pipeline será necessário a busca, coleta, modelagem, carga e análise de dados.
+
 #### Objetivo
 
 O problema em questão reside na intersecção entre a vida moderna atribulada e as demandas incessantes por resultados, culminando em uma atmosfera de pressão constante. Dentro desse contexto, surge a necessidade premente de identificar se os indivíduos estão em risco de sofrer ataques cardíacos devido ao estresse desencadeado por essa turbulência cotidiana.
@@ -14,6 +18,23 @@ A preocupação com a saúde, incluindo hábitos alimentares e atividade física
 No entanto, à medida que avançamos, a tecnologia, especialmente o machine learning, emerge como uma ferramenta vital para nos auxiliar na busca por um equilíbrio saudável. Ela oferece a capacidade de analisar dados complexos, prever e extrair insights significativos, auxiliando os seres humanos na gestão do estresse, na adoção de hábitos saudáveis e na prevenção de doenças cardiovasculares.
 
 Assim, a descrição do problema abrange não apenas os desafios enfrentados na vida moderna, mas também as oportunidades oferecidas pela tecnologia para mitigar esses desafios e promover um estilo de vida mais equilibrado e saudável.
+
+**Perguntas**
+
+* Qual a distribuição entre pessoas do sexo masculino e feminino?
+* Qual a quantidade entre pessoas do sexo masculino e feminino de apresentarem tendência de ataque do coração?
+* Qual a quantidade da tendência de ataque do coração por tipo de dor no peito?
+* Qual a quantidade de pessoas do sexo masculino e feminino por nível de talassemia?
+* Qual a quantidade da tendência de ataque do coração por slope?
+* Quantas pessoas do sexo masculino e do sexo feminino tem entre 30 e 50 anos?
+* Quantas pessoas, por sexo, abaixo dos 50 anos possem tendência de um ataque do coração?
+* Qual a média de idade das mulheres entrevistadas que não possuem tendência de sofrer de um ataque do coração?
+* Qual a idade da pessoa mais nova e mais velha do conjunto de dados, por sexo?
+* Quantas pessoas, por faixa etária, com colesterol acima de 300 apresentam tendência de um ataque do coração?
+
+#### Plataforma
+
+A plataforma utilizada foi o **Databricks Community**.
 
 #### Detalhamento
 ##### Busca pelos dados
