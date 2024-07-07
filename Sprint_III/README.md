@@ -72,7 +72,7 @@ A simplificação do processo de ETL com a redução de junções complexas como
 
 Vale destacar ainda a redução de custos devido a uma menor infraestutura e a otimização dos recursos computacionais.
 
-* Clique aqui para acessar o [**Catálogo de Dados**](https://github.com/rafaelpuyau/PUC-Rio/blob/main/Sprint_III/catalogo_dados.md#dataset-heartscsv)
+* [Clique aqui](https://github.com/rafaelpuyau/PUC-Rio/blob/main/Sprint_III/catalogo_dados.md#dataset-heartscsv) para acessar o **Catálogo de Dados**
 
 ##### Carga
 A ingestão na nuvem do **Databricks** foi realizada através dos comandos abaixo: 
