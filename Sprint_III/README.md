@@ -17,6 +17,27 @@ A preocupação com a saúde, incluindo hábitos alimentares e atividade física
 
 No entanto, à medida que avançamos, a tecnologia, especialmente o machine learning, emerge como uma ferramenta vital para nos auxiliar na busca por um equilíbrio saudável. Ela oferece a capacidade de analisar dados complexos, prever e extrair insights significativos, auxiliando os seres humanos na gestão do estresse, na adoção de hábitos saudáveis e na prevenção de doenças cardiovasculares.
 
+A engenharia de dados desempenha um papel crucial na viabilização de dados e modelos de machine learning. Isso se dá por diversos fatores como:
+
+1. Coleta e ingestão de dados
+   * Aquisição de dados em tempo real
+   * Tratamento e pré-processamento
+   * Ingestão de alta velocidade
+2. Infraestrutura e Arquitetura
+   * Arquitetura escalável
+   * Monitoramento e otimização
+   * Segurança e governança
+3. Modelos de machine learning
+   * Preparação de dados para ML
+   * Implementação e treinamento de modelos
+   * Monitoramento e retreinamento
+4. Disponibilização de dados e modelos
+   * APIs e interfaces
+   * Visualização e comunicação
+   * Integração com sistemas
+  
+Desta forma, a etapa da engenharia de dados é essencial para construir a infraestrutura e os processos necessários para disponibilizar dados e modelos de ML relevantes em tempo real, permitindo que as organizações tomem decisões mais rápidas, inteligentes e baseadas em dados.
+
 Assim, a descrição do problema abrange não apenas os desafios enfrentados na vida moderna, mas também as oportunidades oferecidas pela tecnologia para mitigar esses desafios e promover um estilo de vida mais equilibrado e saudável.
 
 **Perguntas**
