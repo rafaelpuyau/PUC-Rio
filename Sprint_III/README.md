@@ -88,7 +88,7 @@ A ingestão na nuvem do **Databricks** foi realizada através dos comandos abaix
 
 ##### Análise
 ###### Qualidade de dados
-O tratamento da qualidade dos dados foi realizado na camada `silver` e encontra-se na wiki todas as etapas e ações realizadas. [Clique aqui](https://github.com/rafaelpuyau/PUC-Rio/wiki/Documenta%C3%A7%C3%A3o-%E2%80%90-Fase-II) para conferir.
+O tratamento da qualidade dos dados foi realizado na camada `silver` e encontra-se na **Wiki** todas as etapas e ações realizadas. [Clique aqui](https://github.com/rafaelpuyau/PUC-Rio/wiki/Documenta%C3%A7%C3%A3o-%E2%80%90-Fase-II) para conferir.
 
 ###### Solução do problema
 Todas as 10 perguntas foram respondidas na camada `silver` através de comandos `SQL`e em `PySpark` e na camada `gold` foram gerados gráficos para melhor visualização. Acesse a seção **Wiki** para conferir os resultados. 
