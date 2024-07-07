@@ -62,7 +62,15 @@ A plataforma utilizada foi o **Databricks Community Edition**.
 O conjunto de dados **heart** foi, inicialmente, obtido no [kaggle](https://www.kaggle.com/datasets/johnsmith88/heart-disease-dataset), uma fonte reconhecida por disponibilizar conjuntos de dados de alta qualidade para projetos de machine learning, data science e data engineering. Isso garante a confiabilidade e a integridade dos dados utilizados nesta sprint.
 
 ##### Coleta 
-Para este trabalho, em específico, e para demonstrar um processo, mínimo de ETL, optei por usar o dataset que já se encontra neste repositório, fazendo a carga do mesmo através da `raw url` que o Github disponibiliza.
+Para este trabalho, em específico, e para demonstrar um processo, mínimo de ETL, optei por usar o dataset que já se encontra neste repositório - [heart.csv](https://raw.githubusercontent.com/rafaelpuyau/PUC-Rio/main/hearts.csv), fazendo a carga do mesmo através da `raw url` que o Github disponibiliza, salvando-o no _databricks file system_ em formato `parquet`. Após esta etapa, foi criada uma tabela temporária para a execução dos comandos `SQL` para responder as perguntas.
+
+##### Modelagem
+
+Trata-se de um arquivo flat em formato CSV desnormalizado para facilitar a análise de dados e a criação de modelos de machine learning. De fato, essa abordagem oferece diversos benefícios que otimizam o processo de ETL (Extraçãom Transformação e Carga) e a análise de dados, especialmente em grandes conjuntos de dados. 
+
+A simplificação do processo de ETL com a redução de junções complexas como `JOINS` entre tabelas reduz significamente o tempo de processamento. Uma maior eficiência é obtida devido a estrutura plana do conjunto de dados, permitindo que ferramentas de análise de dados processem os dados de forma mais eficiente, otimizando o tempo de resposta e a performance em geral. 
+
+Vale destacar ainda a redução de custos devido a uma menor infraestutura e a otimização dos recursos computacionais.
 
 ##### Carga
 A ingestão na nuvem do **Databricks** foi realizada através do comandos abaixo: 
