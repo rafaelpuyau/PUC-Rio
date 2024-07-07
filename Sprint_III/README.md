@@ -66,7 +66,7 @@ Para este trabalho, em específico, e para demonstrar um processo, mínimo de ET
 
 ##### Modelagem
 
-Trata-se de um arquivo flat em formato CSV desnormalizado para facilitar a análise de dados e a criação de modelos de machine learning. De fato, essa abordagem oferece diversos benefícios que otimizam o processo de ETL (Extraçãom Transformação e Carga) e a análise de dados, especialmente em grandes conjuntos de dados. 
+Trata-se de um arquivo flat em formato CSV desnormalizado para facilitar a análise de dados e a criação de modelos de machine learning. De fato, essa abordagem oferece diversos benefícios que otimizam o processo de ETL (Extração, Transformação e Carga) e a análise de dados, especialmente em grandes conjuntos de dados. 
 
 A simplificação do processo de ETL com a redução de junções complexas como `JOINS` entre tabelas reduz significamente o tempo de processamento. Uma maior eficiência é obtida devido a estrutura plana do conjunto de dados, permitindo que ferramentas de análise de dados processem os dados de forma mais eficiente, otimizando o tempo de resposta e a performance em geral. 
 
