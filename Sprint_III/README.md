@@ -55,11 +55,11 @@ Assim, a descrição do problema abrange não apenas os desafios enfrentados na 
 
 #### Plataforma
 
-A plataforma utilizada foi o **Databricks Community**.
+A plataforma utilizada foi o **Databricks Community Edition**.
 
 #### Detalhamento
 ##### Busca pelos dados
-O conjunto de dados **heart** foi, inicialmente, obtido no kaggle, uma fonte reconhecida por disponibilizar conjuntos de dados de alta qualidade para projetos de machine learning, data science e data engineering. Isso garante a confiabilidade e a integridade dos dados utilizados nesta sprint.
+O conjunto de dados **heart** foi, inicialmente, obtido no [kaggle](https://www.kaggle.com/datasets/johnsmith88/heart-disease-dataset), uma fonte reconhecida por disponibilizar conjuntos de dados de alta qualidade para projetos de machine learning, data science e data engineering. Isso garante a confiabilidade e a integridade dos dados utilizados nesta sprint.
 
 ##### Coleta 
 Para este trabalho, em específico, e para demonstrar um processo, mínimo de ETL, optei por usar o dataset que já se encontra neste repositório, fazendo a carga do mesmo através da `raw url` que o Github disponibiliza.
