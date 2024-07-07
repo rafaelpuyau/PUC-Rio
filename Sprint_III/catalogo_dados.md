@@ -9,7 +9,7 @@
 |trestbps |pressão arteriaal em repouso |
 |chol |colesterol sérico em mg/dl |
 |fbs |glicemia em jejum > 120 mg/dl |
-|restecg |resultdos eletrocardiográficos em repouso |
+|restecg |resultados eletrocardiográficos em repouso |
 |thalach |frequência cardíaca máxima alcançada |
 |exang |angina induzida por exercício |
 |oldpeak |depressão do segmento ST induzida por exercício em relação ao repouso |
