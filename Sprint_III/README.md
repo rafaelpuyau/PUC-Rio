@@ -73,7 +73,7 @@ A simplificação do processo de ETL com a redução de junções complexas como
 Vale destacar ainda a redução de custos devido a uma menor infraestutura e a otimização dos recursos computacionais.
 
 ##### Carga
-A ingestão na nuvem do **Databricks** foi realizada através do comandos abaixo: 
+A ingestão na nuvem do **Databricks** foi realizada através dos comandos abaixo: 
 
 1. Extração da base de dados que se encontra neste repositório através da `raw _url`
 ![image](https://github.com/rafaelpuyau/PUC-Rio/assets/67115933/aa567fc1-96a5-4231-96cc-24457e195f85)
