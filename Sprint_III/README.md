@@ -90,7 +90,7 @@ A ingestão na nuvem do **Databricks** foi realizada através dos comandos abaix
 Criação do cluster no **Databricks**
 ![image](https://github.com/user-attachments/assets/274ad6d1-1c6f-4323-89eb-86a1b1bd693a)
 
-1. Extração da base de dados que se encontra neste repositório através da `raw _url`
+1. Extração da base de dados que se encontra neste repositório através da `raw url`
 ![image](https://github.com/rafaelpuyau/PUC-Rio/assets/67115933/aa567fc1-96a5-4231-96cc-24457e195f85)
 
 2. Conversão para o format `parquet`e salvamento no _databricks file system_
