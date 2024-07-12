@@ -101,6 +101,7 @@ Criação do cluster no **Databricks**
 
 4. Criação da tabela `tbl_heart` e persistindo a mesma fisicamente na estrutura `hive` do **Databricks**
 ![image](https://github.com/user-attachments/assets/65d023e4-ffac-4d03-8b04-9bfb2458514b)
+![image](https://github.com/user-attachments/assets/519794e5-fc4d-4001-acc3-4371a78a89bc)
 
 5. Criação da tabela temporária para usar os comandos `SQL`
 ![image](https://github.com/rafaelpuyau/PUC-Rio/assets/67115933/206c7c69-2517-43b0-b6a2-ee0c641a97cf)
