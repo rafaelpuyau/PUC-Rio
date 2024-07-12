@@ -93,7 +93,7 @@ Criação do cluster no **Databricks**
 1. Extração da base de dados que se encontra neste repositório através da `raw url`
 ![image](https://github.com/rafaelpuyau/PUC-Rio/assets/67115933/aa567fc1-96a5-4231-96cc-24457e195f85)
 
-2. Conversão para o format `parquet`e salvamento no _databricks file system_
+2. Conversão para o formato `parquet`e salvamento no _databricks file system_
 ![image](https://github.com/rafaelpuyau/PUC-Rio/assets/67115933/b6ed4403-aa70-4ac6-8578-5bed208e4641)
 
 3. Verificação da existência da tabela `tbl_heart`
