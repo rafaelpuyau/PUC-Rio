@@ -72,7 +72,7 @@ A plataforma utilizada foi o **Databricks Community Edition**.
 O conjunto de dados **hearts** foi, inicialmente, obtido no [kaggle](https://www.kaggle.com/datasets/johnsmith88/heart-disease-dataset), uma fonte reconhecida por disponibilizar conjuntos de dados de alta qualidade para projetos de machine learning, data science e data engineering. Isso garante a confiabilidade e a integridade dos dados utilizados nesta sprint.
 
 ##### Coleta 
-Para este trabalho, em específico, e para demonstrar um processo, mínimo de ETL, optei por usar o dataset que já se encontra neste repositório - [hearts.csv](https://raw.githubusercontent.com/rafaelpuyau/PUC-Rio/main/hearts.csv), fazendo a carga do mesmo através da `raw url` que o Github disponibiliza, salvando-o no _databricks file system_ em formato `parquet`. Após esta etapa, foi criada uma tabela temporária para a execução dos comandos `SQL` para responder as perguntas.
+Para este trabalho, em específico, e para demonstrar um processo, mínimo de ETL, optei por usar o dataset que já se encontra neste repositório - [hearts.csv](https://raw.githubusercontent.com/rafaelpuyau/PUC-Rio/main/hearts.csv), fazendo a carga do mesmo através da `raw url` que o Github disponibiliza, salvando-o no _databricks file system_ em formato `parquet`. Após esta etapa, foram criadas duas tabelas, uma tabela temporária e em memória (`heart`) e persistente e física na estrutura `hive` (`tbl_heart`) outra para a execução dos comandos `SQL` para responder as perguntas.
 
 ##### Modelagem
 
