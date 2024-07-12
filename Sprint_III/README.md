@@ -59,13 +59,13 @@ A plataforma utilizada foi o **Databricks Community Edition**.
 
 **Arquitetura de Dados**
 
-![image](https://github.com/user-attachments/assets/2ca10f80-b016-4e5e-9df2-a1bf114c7c3c)
+![image](https://github.com/user-attachments/assets/a0d860b3-150a-4481-bf95-7854fe2b87a6)
 
 **Camadas**
 
-* **Bronze** : 
-* **Silver** : 
-* **Gold** : 
+* **Bronze** : nesta camada replicamos a informação que existe na fonte de dados salvando em formato `parquet` e criando a 1ª tabela na estrutura `hive` do databricks.
+* **Silver** : esta camada é, inicialmente, 1x1 com a camada *bronze* porém, os dados passam por uma limpeza e normalização deixando os dados na estrutura que desejamos e precisamos para alimentar a camada *gold*. Temos o dado confiável! 
+* **Gold** : camada planejada pelo negócio, ou seja, os cientistas de dados e analistas de dados olharão para esta camada. É nesta camada que entregamos os dados agregados.
 
 #### Detalhamento
 ##### Busca pelos dados
