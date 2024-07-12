@@ -96,7 +96,13 @@ Criação do cluster no **Databricks**
 2. Conversão para o format `parquet`e salvamento no _databricks file system_
 ![image](https://github.com/rafaelpuyau/PUC-Rio/assets/67115933/b6ed4403-aa70-4ac6-8578-5bed208e4641)
 
-3. Criação da tabela temporária para usar os comandos `SQL`
+3. Verificação da existência da tabela `tbl_heart`
+![image](https://github.com/user-attachments/assets/dc180b87-2704-46aa-a944-2e6a7f7337cf)
+
+4. Criação da tabela `tbl_heart` e persistindo a mesma fisicamente na estrutura `hive` do **Databricks**
+![image](https://github.com/user-attachments/assets/65d023e4-ffac-4d03-8b04-9bfb2458514b)
+
+5. Criação da tabela temporária para usar os comandos `SQL`
 ![image](https://github.com/rafaelpuyau/PUC-Rio/assets/67115933/206c7c69-2517-43b0-b6a2-ee0c641a97cf)
 
 ##### Análise
