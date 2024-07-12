@@ -6,7 +6,7 @@
 |age |idade em anos com valores entre 29 e 77 anos |
 |sex |sexo do paciente, sendo 0 para feminino e 1 para masculino |
 |cp | tipo de dor no peito |
-|trestbps |pressão arteriaal em repouso |
+|trestbps |pressão arterial em repouso |
 |chol |colesterol sérico em mg/dl |
 |fbs |glicemia em jejum > 120 mg/dl |
 |restecg |resultados eletrocardiográficos em repouso |
