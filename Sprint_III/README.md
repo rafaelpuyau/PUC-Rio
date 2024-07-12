@@ -72,7 +72,7 @@ A plataforma utilizada foi o **Databricks Community Edition**.
 O conjunto de dados **hearts** foi, inicialmente, obtido no [kaggle](https://www.kaggle.com/datasets/johnsmith88/heart-disease-dataset), uma fonte reconhecida por disponibilizar conjuntos de dados de alta qualidade para projetos de machine learning, data science e data engineering. Isso garante a confiabilidade e a integridade dos dados utilizados nesta sprint.
 
 ##### Coleta 
-Para este trabalho, em específico, e para demonstrar um processo, mínimo de ETL, optei por usar o dataset que já se encontra neste repositório - [hearts.csv](https://raw.githubusercontent.com/rafaelpuyau/PUC-Rio/main/hearts.csv), fazendo a carga do mesmo através da `raw url` que o Github disponibiliza, salvando-o no _databricks file system_ em formato `parquet`. Após esta etapa, foram criadas duas tabelas, uma tabela temporária e em memória (`heart`) e persistente e física na estrutura `hive` (`tbl_heart`) outra para a execução dos comandos `SQL` para responder as perguntas.
+Para este trabalho, em específico, e para demonstrar um processo, mínimo de ETL, optei por usar o dataset que já se encontra neste repositório - [hearts.csv](https://raw.githubusercontent.com/rafaelpuyau/PUC-Rio/main/hearts.csv), fazendo a carga do mesmo através da `raw url` que o Github disponibiliza, salvando-o no _databricks file system_ em formato `parquet`. Após esta etapa, foram criadas duas tabelas, uma tabela temporária e em memória (`heart`) e persistente e física na estrutura `hive` (`tbl_heart_raw`) outra para a execução dos comandos `SQL` para responder as perguntas.
 
 ##### Modelagem
 
@@ -99,7 +99,7 @@ Criação do cluster no **Databricks**
 3. Verificação da existência da tabela `tbl_heart`
 ![image](https://github.com/user-attachments/assets/dc180b87-2704-46aa-a944-2e6a7f7337cf)
 
-4. Criação da tabela `tbl_heart` e persistindo a mesma fisicamente na estrutura `hive` do **Databricks**
+4. Criação da tabela `tbl_heart_raw` e persistindo a mesma fisicamente na estrutura `hive` do **Databricks**
 ![image](https://github.com/user-attachments/assets/65d023e4-ffac-4d03-8b04-9bfb2458514b)
 ![image](https://github.com/user-attachments/assets/519794e5-fc4d-4001-acc3-4371a78a89bc)
 
