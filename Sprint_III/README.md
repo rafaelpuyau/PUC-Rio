@@ -58,7 +58,7 @@ Assim, a descrição do problema abrange não apenas os desafios enfrentados na 
 A plataforma utilizada foi o **Databricks Community Edition**.
 
 **Arquitetura de Dados**
-![image](https://github.com/user-attachments/assets/598895b6-fc91-4b3e-b067-691960676970)
+![image](https://github.com/user-attachments/assets/2ca10f80-b016-4e5e-9df2-a1bf114c7c3c)
 
 **Camadas**
 
