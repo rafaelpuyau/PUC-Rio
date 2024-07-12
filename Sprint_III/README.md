@@ -57,6 +57,15 @@ Assim, a descrição do problema abrange não apenas os desafios enfrentados na 
 
 A plataforma utilizada foi o **Databricks Community Edition**.
 
+**Arquitetura de Dados**
+![image](https://github.com/user-attachments/assets/598895b6-fc91-4b3e-b067-691960676970)
+
+**Camadas**
+
+* **Bronze** : 
+* **Silver** : 
+* **Gold** : 
+
 #### Detalhamento
 ##### Busca pelos dados
 O conjunto de dados **hearts** foi, inicialmente, obtido no [kaggle](https://www.kaggle.com/datasets/johnsmith88/heart-disease-dataset), uma fonte reconhecida por disponibilizar conjuntos de dados de alta qualidade para projetos de machine learning, data science e data engineering. Isso garante a confiabilidade e a integridade dos dados utilizados nesta sprint.
@@ -76,6 +85,9 @@ Vale destacar ainda a redução de custos devido a uma menor infraestutura e a o
 
 ##### Carga
 A ingestão na nuvem do **Databricks** foi realizada através dos comandos abaixo: 
+
+Criação do cluster no **Databricks**
+![image](https://github.com/user-attachments/assets/274ad6d1-1c6f-4323-89eb-86a1b1bd693a)
 
 1. Extração da base de dados que se encontra neste repositório através da `raw _url`
 ![image](https://github.com/rafaelpuyau/PUC-Rio/assets/67115933/aa567fc1-96a5-4231-96cc-24457e195f85)
